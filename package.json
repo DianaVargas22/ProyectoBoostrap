@@ -4,9 +4,8 @@
   "description": "practice with nodejs",
   "main": "index.hmtl",
   "scripts": {
-    "dev" : " lite-server ",
+    "dev": " lite-server ",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,11 @@
   "homepage": "https://github.com/DianaVargas22/ProyectoBoostrap#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "jquey": "0.0.1-security",
+    "popper.js": "^1.16.1"
   }
 }
