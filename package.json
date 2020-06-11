@@ -4,7 +4,9 @@
   "description": "practice with nodejs",
   "main": "index.hmtl",
   "scripts": {
+    "dev" : " lite-server ",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/DianaVargas22/ProyectoBoostrap/issues"
   },
-  "homepage": "https://github.com/DianaVargas22/ProyectoBoostrap#readme"
+  "homepage": "https://github.com/DianaVargas22/ProyectoBoostrap#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
