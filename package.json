@@ -1,0 +1,19 @@
+{
+  "name": "curso-bootstrap",
+  "version": "1.0.0",
+  "description": "practice with nodejs",
+  "main": "index.hmtl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaVargas22/ProyectoBoostrap.git"
+  },
+  "author": "Diana Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianaVargas22/ProyectoBoostrap/issues"
+  },
+  "homepage": "https://github.com/DianaVargas22/ProyectoBoostrap#readme"
+}
