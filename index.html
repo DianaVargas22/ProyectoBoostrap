@@ -3,124 +3,187 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> 
-    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Titulo</title>
 </head>
 
 <body>
-    
-
-        <div class="jumbotron">
-            <h1>Hoteles </h1>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Hoteles</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-labels="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"> <a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"> <a class="nav-link" href="about.html">Nosotros</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#">Precios</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#">Terminos y condiciones</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#">contacto</a></li>
+            </ul>
         </div>
-        <div class="container">
-            <div class="d-flex ">
-                <div class="col-sm-4">
-                    <h3> <b>¿Como funciona? </b></h3>
-                    <p> Busca llos hoteles de acurdo a tus preferencias</p>
-                </div>
+    </nav>
 
-                <div class="col-sm-4">
-                    <h3> <b>¿Donde puedo reservar? </b></h3>
-                    <p> Elije la ciudad que te interese y luego realiza tu reserva</p>
-                </div>
+    <div class="jumbotron ">
+        <h1>Hoteles </h1>
+    </div>
+    <div class="container">
+        <nav aria-labels="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home </li>
+            </ol>
+        </nav>
 
-                <div class="col-sm-4">
-                    <h3> <b> ¿Como pago? </b></h3>
-                    <p>Utiliza tu tarjeta de credito</p>
-                </div>
+        <div class="d-flex ">
+            <div class="col-sm-4">
+                <h3> <b>¿Como funciona? </b></h3>
+                <p> Busca llos hoteles de acurdo a tus preferencias</p>
             </div>
 
-            <div class="d-flex flex-wrap flex-row-reverse">
-                <div class="col-sm-3">
-                    <h4>Hotel California </h4>
-                    <p>
-                        Welcome to the Hotel California
-                        Such a lovely place (such a lovely place)
-                        Such a lovely face
-                        Plenty of room at the Hotel California
-                        Any time of year (any time of year)
-                        You can find it here
-                    </p>
-                    <button type="button" class="btn btn-dark"> Reservar</button>
-                </div>
-                <div class="col-sm-3">
-                    <h4>Hotel California </h4>
-                    <p>
-                        Welcome to the Hotel California
-                        Such a lovely place (such a lovely place)
-                        Such a lovely face
-                        Plenty of room at the Hotel California
-                        Any time of year (any time of year)
-                        You can find it here
-                    </p>
-                    <button type="button" class="btn btn-dark"> Reservar</button>
-                </div>
-                <div class="col-sm-3">
-                    <h4>Hotel California </h4>
-                    <p>
-                        Welcome to the Hotel California
-                        Such a lovely place (such a lovely place)
-                        Such a lovely face
-                        Plenty of room at the Hotel California
-                        Any time of year (any time of year)
-                        You can find it here
-                    </p>
-                    <button type="button" class="btn btn-dark"> Reservar</button>
-                </div>
-                <div class="col-sm-3">
-                    <h4>Hotel California </h4>
-                    <p>
-                        Welcome to the Hotel California
-                        Such a lovely place (such a lovely place)
-                        Such a lovely face
-                        Plenty of room at the Hotel California
-                        Any time of year (any time of year)
-                        You can find it here
-                    </p>
-                    <button type="button" class="btn btn-dark"> Reservar</button>
-                </div>
+            <div class="col-sm-4">
+                <h3> <b>¿Donde puedo reservar? </b></h3>
+                <p> Elije la ciudad que te interese y luego realiza tu reserva</p>
+            </div>
 
-                <div class="col-sm-3">
-                    <h4>Hotel California </h4>
-                    <p>
-                        Welcome to the Hotel California
-                        Such a lovely place (such a lovely place)
-                        Such a lovely face
-                        You can find it here
-                    </p>
-                    <button type="button" class="btn btn-dark"> Reservar</button>
-                </div>
-                <div class="col-sm-3">
-                    <h4>Hotel California </h4>
-                    <p>
-                        Welcome to the Hotel California
-                        Such a lovely place (such a lovely place)
-                        Such a lovely face
-                    </p>
-                    <button type="button" class="btn btn-dark"> Reservar</button>
-                </div>
-                <div class="col-sm-3">
-                    <h4>Hotel California </h4>
-                    <p>
-                        Welcome to the Hotel California
-                        Such a lovely place (such a lovely place)
-                        Such a lovely face
-                    </p>
-                    <button type="button" class="btn btn-dark"> Reservar</button>
-                </div>
+            <div class="col-sm-4">
+                <h3> <b> ¿Como pago? </b></h3>
+                <p>Utiliza tu tarjeta de credito</p>
             </div>
         </div>
 
+        <div class="d-flex flex-wrap flex-row-reverse">
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <h4>Hotel California </h4>
+                <p>
+                    Welcome to the Hotel California
+                    Such a lovely place (such a lovely place)
+                    Such a lovely face
+                </p>
+                <div>
+                    <button type="button" class="btn btn-dark"> Reservar</button>
+                </div>
 
-    
+            </div>
+            <div class=" card-hotel d-flex flex-column justify-content-between">
+                <h4>Hotel California </h4>
+                <p>
+                    Welcome to the Hotel California
+                    Such a lovely place (such a lovely place)
+                    Such a lovely face
+                    Plenty of room at the Hotel California
+                    Any time of year (any time of year)
+                    You can find it here
+                </p>
+                <div>
+                    <button type="button" class="btn btn-dark"> Reservar</button>
+                </div>
+            </div>
+            <div class=" card-hotel d-flex flex-column justify-content-between">
+                <h4>Hotel California </h4>
+                <p>
+                    Welcome to the Hotel California
+                    Such a lovely place (such a lovely place)
+                    Such a lovely face
+                    Plenty of room at the Hotel California
+                    Any time of year (any time of year)
+                    You can find it here
+                </p>
+
+                <div>
+                    <button type="button" class="btn btn-dark"> Reservar</button>
+                </div>
+            </div>
+            <div class=" card-hotel d-flex flex-column justify-content-between">
+                <h4>Hotel California </h4>
+                <p>
+                    Welcome to the Hotel California
+                    Such a lovely place (such a lovely place)
+                    Such a lovely face
+                    Plenty of room at the Hotel California
+                    Any time of year (any time of year)
+                    You can find it here
+                </p>
+                <div>
+                    <button type="button" class="btn btn-dark"> Reservar</button>
+                </div>
+            </div>
+
+            <div class=" card-hotel d-flex flex-column justify-content-between">
+                <h4>Hotel California </h4>
+                <p>
+                    Welcome to the Hotel California
+                    Such a lovely place (such a lovely place)
+                    Such a lovely face
+                    You can find it here
+                </p>
+
+                <div>
+                    <button type="button" class="btn btn-dark"> Reservar</button>
+                </div>
+            </div>
+            <div class=" card-hotel d-flex flex-column justify-content-between">
+                <h4>Hotel California </h4>
+                <p>
+                    Welcome to the Hotel California
+                    Such a lovely place (such a lovely place)
+                    Such a lovely face
+                </p>
+
+                <div>
+                    <button type="button" class="btn btn-dark"> Reservar</button>
+                </div>
+            </div>
+            <div class=" card-hotel d-flex flex-column justify-content-between">
+                <h4>Hotel California </h4>
+                <p>
+                    Welcome to the Hotel California
+                    Such a lovely place (such a lovely place)
+                    Such a lovely face
+                </p>
+
+                <div>
+                    <button type="button" class="btn btn-dark"> Reservar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
+
+<footer class="row footer ">
+    <div class="col-sm-4 d-flex flex-column">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Google</a>
+    </div>
+
+    <div class="col-sm-4">
+        <address>
+            <h3>Oficina</h3>
+            Bolivia 1624 Cala Cala
+            +591 60379123
+            dianav715@gmail.com
+        </address>
+    </div>
+
+    <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="#">Nosotros</a>
+        <a href="#">Precios</a>
+        <a href="#">Terminos</a>
+        <a href="#">Contacto</a>
+
+    </div>
+
+</footer>
 
 </html>
